@@ -9,8 +9,8 @@
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/messageSendButton"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
+        android:layout_width="@dimen/dimens_dp_55"
+        android:layout_height="@dimen/dimens_dp_55"
         android:background="@drawable/send_message_button"
         android:src="@drawable/next"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,10 +22,10 @@
 
     <ImageView
         android:id="@+id/attachImageView"
-        android:layout_width="25dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="28dp"
+        android:layout_width="@dimen/dimens_dp_25"
+        android:layout_height="@dimen/dimens_dp_32"
+        android:layout_marginStart="@dimen/dimens_dp_16"
+        android:layout_marginBottom="@dimen/dimens_dp_28"
         android:src="@drawable/attach_paperclips"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,8 +35,8 @@
     <View
         android:id="@+id/line"
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginBottom="10dp"
+        android:layout_height="@dimen/dimens_dp_1"
+        android:layout_marginBottom="@dimen/dimens_dp_10"
         android:background="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/userInputEditText"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,10 +45,10 @@
 
     <EditText
         android:id="@+id/userInputEditText"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/dimens_dp_0"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginHorizontal="@dimen/dimens_dp_20"
+        android:layout_marginBottom="@dimen/dimens_dp_24"
         android:ems="10"
         android:hint="@string/user_input_edittext"
         android:inputType="textPersonName"
@@ -62,11 +62,10 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/messagesRecyclerView"
-
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginBottom="5dp"
+        android:layout_height="@dimen/dimens_dp_0"
+        android:layout_marginHorizontal="@dimen/dimens_dp_20"
+        android:layout_marginBottom="@dimen/dimens_dp_5"
         app:layout_constraintBottom_toBottomOf="@+id/line"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

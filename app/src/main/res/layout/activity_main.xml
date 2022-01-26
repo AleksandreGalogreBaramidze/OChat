@@ -11,16 +11,16 @@
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/firstFragment"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/dimens_dp_0"
         app:layout_constraintBottom_toTopOf="@id/secondFragment"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="@dimen/dimens_dp_8"
         android:layout_weight="1"/>
 
     <androidx.fragment.app.FragmentContainerView
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="@dimen/dimens_dp_8"
         android:id="@+id/secondFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"

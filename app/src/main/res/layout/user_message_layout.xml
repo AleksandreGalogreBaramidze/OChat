@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="10dp"
+    android:layout_marginTop="@dimen/dimens_dp_10"
     android:orientation="vertical">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
-        android:layout_height="45dp"
+        android:layout_height="@dimen/dimens_dp_45"
         android:layout_gravity="end"
         android:background="@drawable/user_message_item">
 
@@ -17,10 +17,10 @@
             android:id="@+id/userSentTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="13dp"
-            android:layout_marginEnd="40dp"
+            android:layout_marginStart="@dimen/dimens_dp_13"
+            android:layout_marginEnd="@dimen/dimens_dp_40"
             android:textColor="@color/white"
-            android:textSize="17sp"
+            android:textSize="@dimen/dimens_sp_17"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.082"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:textColor="@color/date_text_color"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="@dimen/dimens_dp_5"
         tools:text="10 Dec, 9:34" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
