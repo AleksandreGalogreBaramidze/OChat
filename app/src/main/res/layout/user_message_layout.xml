@@ -9,7 +9,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
-        android:layout_height="60dp"
+        android:layout_height="45dp"
         android:layout_gravity="end"
         android:background="@drawable/user_message_item">
 
@@ -35,6 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
+        android:textColor="@color/date_text_color"
         android:layout_marginTop="5dp"
         tools:text="10 Dec, 9:34" />
 
