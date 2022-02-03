@@ -3,7 +3,6 @@ package com.example.chat.ui.zezva
 import android.content.IntentFilter
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.core.view.size
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.chat.R
 import com.example.chat.broadcast_reciever.BroadcastReceiver
@@ -15,7 +14,7 @@ import com.example.chat.ui.zezva.adapter.ChatRecyclerAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class ZezvaFragment(private val sender: String) :
+class ChatFragment(private val sender: String) :
     BaseFragment<ZezvaFragmentBinding, ZezvaViewModel>() {
     override val inflater: (LayoutInflater, ViewGroup?, Boolean) -> ZezvaFragmentBinding get() = ZezvaFragmentBinding::inflate
     override fun getViewModel() = ZezvaViewModel::class.java
